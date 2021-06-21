@@ -1,0 +1,65 @@
+.navbar{
+    background-color: rgb(86, 111, 128);
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar-collapse,.collapse{
+    background-color: white;
+    text-align: center;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+}
+.navbar-light .navbar-toggler{
+    border: 1px solid black;
+}
+.bold{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: khaki;
+}
+.background-color{
+    background-color: rgb(86, 111, 128);
+}
+p{
+    color: wheat;
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    div .col-lg-4, .col-md-6{
+        width: 40px;
+    }
+}
+/*end of XX-Large devices*/
+
+/* X-Large devices (large desktops)*/
+@media (max-width:1399px ) and (min-width: 1200px) { 
+
+}
+/*end of Large devices*/
+
+/* Medium devices*/
+@media (max-width: 1199px) and (min-width: 992px) { 
+
+}
+/*end of medium devices*/
+
+
+/* Small devices */
+@media (man-width: 991px) and (min-width: 768px) { 
+    #navbarNav{
+        background-color: white;
+        width: 100%;
+    }
+}
+/*end of small devices*/
+
+/*X-Small devices*/
+@media (man-width: 767px) { 
+
+}
